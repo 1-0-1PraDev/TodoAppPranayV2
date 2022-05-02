@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="myApp">
+            <div class="top">
+                <div class="imgBx">
+                    <img src="bg2.jpg" alt="">
+                </div>
+                <div class="textBx">
+                    <p class="priority-pallete">Priority color pallate</p>
+                    <img src="./priorityColors.png" alt="" class="priority-img">
+                    <h3 class="title"> </h3> <span class="author"></span>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="uncompleted-task">
+                    <div class="inbox">
+                        <p>inbox</p>
+                    </div>
+                    <div class="tasks task">
+
+                    </div>
+                    <div class="addTaskbtn"><p>+</p></div>
+                </div>
+
+                <div class="completed-task">
+                    <div class="inbox">
+                        <p>Completed Tasks &nbsp;</p>
+                        <span class="completed-task-span">0</span>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <div class="Addtask-container">
+                <div class="addTask">
+                    <div class="heading">
+                        <h3>Add new Thing</h3>
+                    </div>
+                    <div class="form">
+                        <div class="inputBx">
+                            <select name="task-category" id="task-category">
+                                <option value="priority1">High Priority</option>
+                                <option value="priority2">Medium Priority</option>
+                                <option value="priority3">Low Priority</option>
+                                <option value="priority4">Least Priority</option>
+                            </select>
+                            <input type="text" placeholder="Name the task" class="task-name">
+                            <input type="text" placeholder="Task side note or quote" class="task-desc">
+                            <a href="#" class="addtask-btn">Add your thing</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="todo.js"></script>
+</body>
+</html>
